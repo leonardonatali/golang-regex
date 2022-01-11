@@ -4,7 +4,7 @@ console.log('text.match(/r/gi):', text.match(/r/gi));
 // ^ => start of the line
 console.log('text.match(/^r/gi):', text.match(/^r/gi));
 
-// ^ => end of the line
+// $ => end of the line
 console.log('text.match(/r$/gi):', text.match(/r$/gi));
 
 console.log('text.match(/^r.*r$/gis):', text.match(/^r.*r$/gis));
